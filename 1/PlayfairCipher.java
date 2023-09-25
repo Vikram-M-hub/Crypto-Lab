@@ -27,7 +27,7 @@ class PlayfairCipher {
     private static String codec(StringBuilder txt, int dir) {
         int len = txt.length();
         for (int i = 0; i < len; i += 2) {
-            char a = txt.charAt(i);
+            char a = txt.charAt(i);x
             char b = txt.charAt(i + 1);
             int row1 = positions[a - 'A'].y;
             int row2 = positions[b - 'A'].y;
